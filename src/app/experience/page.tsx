@@ -25,7 +25,7 @@ const page: React.FC<pageProps> = () => {
             June 2023{" "}
           </h4>
           <h2 className="colorchange">
-            learned Android (Flutter) development, "was exploring"
+            learned Android (Flutter) development, was exploring stuff
           </h2>
         </div>
         <div className="">
@@ -35,7 +35,7 @@ const page: React.FC<pageProps> = () => {
           </h4>
           <h2 className="colorchange">
             learned Frontend and Backend development through free resources<br/>
-            on the "internet"
+            on the internet.
           </h2>
         </div>
         <div className="">
