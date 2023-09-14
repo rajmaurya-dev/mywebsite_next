@@ -4,9 +4,9 @@ interface pageProps {}
 
 const page: React.FC<pageProps> = () => {
   return (
-    <div className="col-span-3 ml-20 mr-20 mt-10 text-left font-normal">
-      <h1 className="text-2xl p-2">Hello, I'm Rohit.</h1>
-      <p className="indent-8 text-left tracking-widest font-normal text-lg">
+    <div className="col-span-3 m-7 md:ml-20 md:mr-20 md:mt-10 text-left font-normal">
+      <h1 className="sm:text-2xl text-xl p-2">Hello, I'm Rohit.</h1>
+      <p className="indent-8 text-left tracking-widest font-normal sm:text-lg text-md">
         <span className="decoration-gray-400 text-gray-300 underline-offset-4 underline">
           A Passionate Developer
         </span>{" "}
@@ -25,7 +25,7 @@ const page: React.FC<pageProps> = () => {
         bring creativity and innovative problem-solving to every project I
         undertake.
       </p>
-      <p className="mt-6 indent-8 text-left tracking-widest font-normal text-lg">
+      <p className="mt-6 indent-8 text-left tracking-widest font-normal sm:text-lg text-md">
         When I'm not busy coding or working on tech projects, you'll often find
         me in the vibrant online communities of{" "}
         <span className="decoration-gray-400 text-gray-300 underline-offset-4 underline">
@@ -43,7 +43,7 @@ const page: React.FC<pageProps> = () => {
         individuals who share my love for these fascinating forms of
         entertainment.
       </p>
-      <p className="mt-6 indent-8 text-left tracking-widest font-normal text-lg">
+      <p className="mt-6 indent-8 text-left tracking-widest font-normal sm:text-lg text-md">
         On this website, I aim to share my knowledge, experiences, and insights
         as I continue my journey in the world of technology and creativity.
         Whether you're here to learn, collaborate, or simply share in the joy of

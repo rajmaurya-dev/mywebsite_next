@@ -11,8 +11,8 @@ interface pageProps {}
 
 const page: React.FC<pageProps> = () => {
   return (
-    <div className="flex flex-col m-20  justify-center items-center">
-      <div className="text-left flex text-xl gap-5">
+    <div className="flex flex-col sm:m-20 justify-center items-center">
+      <div className="text-left flex flex-col md:flex-row text-xl gap-5">
       <Link
         href="https://twitter.com/rohitxfr"
         target="_blank"
@@ -48,7 +48,7 @@ const page: React.FC<pageProps> = () => {
       
       </div>
       <h1 className="m-4 text-gray-500">because we live in samaj</h1>
-      <Image alt=" joke" width={400} height={400} src="https://www.comediva.com/wp-content/uploads/2014/11/MEME-BLOG-social-media-explained-donuts.jpg"></Image>
+      <Image className="p-10 md:p-0" alt=" joke" width={400} height={400} src="https://www.comediva.com/wp-content/uploads/2014/11/MEME-BLOG-social-media-explained-donuts.jpg"></Image>
     </div>
   );
 };

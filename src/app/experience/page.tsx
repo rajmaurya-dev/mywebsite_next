@@ -4,8 +4,8 @@ interface pageProps {}
 
 const page: React.FC<pageProps> = () => {
   return (
-    <div className="flex-col flex m-10  justify-center items-center">
-      <h1 className="m-10  text-xl">What have i done?</h1>
+    <div className="flex-col flex mb-5 lg:m-10 mx-10 justify-center items-center">
+      <h1 className="lg:m-10 mt-1 mb-4 text-xl">What have i done?</h1>
 
       <div className="text-left text-gray-400 gap-5 text-md flex-col flex ">
         -- learning right now --
@@ -34,8 +34,8 @@ const page: React.FC<pageProps> = () => {
             MAY 2023{" "}
           </h4>
           <h2 className="colorchange">
-            learned Frontend and Backend development through free resources on<br/>
-            the "internet"
+            learned Frontend and Backend development through free resources<br/>
+            on the "internet"
           </h2>
         </div>
         <div className="">
@@ -50,7 +50,7 @@ const page: React.FC<pageProps> = () => {
             {" "}
             January - March (2023){" "}
           </h4>
-          <h2 className="colorchange">Front-End Developer</h2>
+          <h2 className="">Front-End Developer</h2>
         </div>
       </div>
     </div>
