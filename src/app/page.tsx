@@ -1,6 +1,7 @@
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
+import Link from "next/link";
 
 
 
@@ -36,7 +37,7 @@ export default function Home() {
         <p className="mt-6  indent-8 text-left tracking-widest font-normal text-lg">
           You can often find me in the vibrant communities of{" "}
           <span className=" decoration-gray-400 text-gray-300 underline-offset-4 underline">
-            Twitter and Discord,
+            <Link href="/socials">Twitter and Discord,</Link>
           </span>{" "}
           As an ardent
           enthusiast of{" "}

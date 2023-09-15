@@ -8,6 +8,7 @@ import Image from "next/image";
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  let image = "https://i1.sndcdn.com/artworks-u7Vi9LIFRXug35T3-vhXHzg-t500x500.jpg"
 
   // Use useEffect to check if the screen size is mobile and update the state
   useEffect(() => {
@@ -57,14 +58,19 @@ const Header = () => {
                       p-6 \
                       border \
                       rounded-xl \
-                      bg-gray-800 \
+                      bg-[#151719] \
                       text-left \
                       fixed \
                       ${toggle ? "visible" : "invisible"}`}
         >
-          <div className="grid text-[#8c8d83] gap-3 -m-2 justify-center text-center font-bold items-center sm:flex sm:flex-row sm:gap-5">
-            
-            <Image alt="welcome" className="mt-20" height={200} width={200} src="https://media.tenor.com/AwMCvyYjPgAAAAAC/anime-welcome.gif" />
+          <div className="grid text-[#8c8d83] gap-3 -m-2 justify-center text-left font-bold items-center sm:flex sm:flex-row sm:gap-5">
+            <Image
+              alt="welcome"
+              className="mt-20 mb-5 rounded-lg"
+              height={200}
+              width={200}
+              src={image}
+            />
             <Link
               href="/"
               onClick={() => {
