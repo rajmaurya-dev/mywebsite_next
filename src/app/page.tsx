@@ -1,14 +1,11 @@
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
 
-
-
 export default function Home() {
   return (
     <div className="md:m-20 mx-10 mb-10 -my-16 text-gray-400 body-font font-sarif md:grid md:grid-cols-4">
-      <div  className="col-span-1 p-12  md:p-8 ">
+      <div className="col-span-1 p-12  md:p-8 ">
         <Image
           alt="profilpic"
           src="https://avatars.githubusercontent.com/u/112627630?v=4"
@@ -39,8 +36,7 @@ export default function Home() {
           <span className=" decoration-gray-400 text-gray-300 underline-offset-4 underline">
             <Link href="/socials">Twitter and Discord,</Link>
           </span>{" "}
-          As an ardent
-          enthusiast of{" "}
+          As an ardent enthusiast of{" "}
           <span className=" decoration-gray-400 text-gray-300 underline-offset-4 underline">
             anime, manga, memes, music? and video edits,
           </span>{" "}

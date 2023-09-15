@@ -34,7 +34,8 @@ const page: React.FC<pageProps> = () => {
             MAY 2023{" "}
           </h4>
           <h2 className="colorchange">
-            learned Frontend and Backend development through free resources<br/>
+            learned Frontend and Backend development through free resources
+            <br />
             on the internet.
           </h2>
         </div>

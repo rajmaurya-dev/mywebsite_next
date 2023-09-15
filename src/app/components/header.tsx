@@ -8,7 +8,8 @@ import Image from "next/image";
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  let image = "https://i1.sndcdn.com/artworks-u7Vi9LIFRXug35T3-vhXHzg-t500x500.jpg"
+  let image =
+    "https://i1.sndcdn.com/artworks-u7Vi9LIFRXug35T3-vhXHzg-t500x500.jpg";
 
   // Use useEffect to check if the screen size is mobile and update the state
   useEffect(() => {
@@ -73,6 +74,7 @@ const Header = () => {
             />
             <Link
               href="/"
+              className="rounded-full"
               onClick={() => {
                 setToggle(false);
               }}
@@ -115,46 +117,11 @@ const Header = () => {
         </div>
       ) : (
         <div className="grid text-[#8c8d83] gap-3 -m-2 justify-center font-bold items-center sm:flex sm:flex-row sm:gap-5">
-          <Link
-            href="/"
-            onClick={() => {
-              setToggle(false);
-            }}
-          >
-            ./home
-          </Link>
-          <Link
-            href="/about"
-            onClick={() => {
-              setToggle(false);
-            }}
-          >
-            ./about
-          </Link>
-          <Link
-            href="/socials"
-            onClick={() => {
-              setToggle(false);
-            }}
-          >
-            ./socials
-          </Link>
-          <Link
-            href="/projects"
-            onClick={() => {
-              setToggle(false);
-            }}
-          >
-            ./projects
-          </Link>
-          <Link
-            href="/experience"
-            onClick={() => {
-              setToggle(false);
-            }}
-          >
-            ./experience
-          </Link>
+          <Link href="/">./home</Link>
+          <Link href="/about">./about</Link>
+          <Link href="/socials">./socials</Link>
+          <Link href="/projects">./projects</Link>
+          <Link href="/experience">./experience</Link>
         </div>
       )}
     </>

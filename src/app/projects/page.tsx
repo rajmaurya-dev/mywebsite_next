@@ -86,7 +86,8 @@ const page: React.FC<pageProps> = () => {
             </a>
           </h2>
           <p className="">
-            This is the Portfolio i made when i was learning react.js way back<br/>
+            This is the Portfolio i made when i was learning react.js way back
+            <br />
             in march 2023.
           </p>
         </div>
@@ -102,7 +103,8 @@ const page: React.FC<pageProps> = () => {
             </a>
           </h2>
           <p className="">
-            This is a ONLY TODO api you will ever need, made with nodejs on backend and
+            This is a ONLY TODO api you will ever need, made with nodejs on
+            backend and
             <br />
             MongoDB for the database and hosted on vercel.
           </p>
