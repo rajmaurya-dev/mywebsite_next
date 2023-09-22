@@ -4,7 +4,7 @@ interface pageProps {}
 
 const page: React.FC<pageProps> = () => {
   return (
-    <div className="col-span-3 m-7 md:ml-20 md:mr-20 md:mt-10 text-left font-normal">
+    <div className="col-span-3  m-7 md:ml-20 md:mr-20 md:mt-10 text-left font-normal">
       <h1 className="sm:text-2xl text-xl p-2">Hello, I am Rohit.</h1>
       <p className="indent-8 text-left tracking-widest font-normal sm:text-lg text-md">
         <span className="decoration-gray-400 text-gray-300 underline-offset-4 underline">

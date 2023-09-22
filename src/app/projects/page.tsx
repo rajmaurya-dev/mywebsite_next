@@ -5,11 +5,11 @@ interface pageProps {}
 const page: React.FC<pageProps> = () => {
   return (
     <div className="flex-col flex lg:m-20 mb-5 mx-10 justify-center items-center">
-      <h1 className="mb-10 text-xl"> Here are some of my Projects.</h1>
-      <div className="text-left text-gray-400 gap-5 text-md flex-col flex ">
+      <h1 className="mb-10 text-xl"> Here are some of my Projects. </h1>
+      <div className="text-left lg:border-l-1 lg:pl-3 text-gray-400 gap-5 text-md flex-col flex ">
         <div className="">
           <h2 className="decoration-gray-400 text-gray-300 underline-offset-4 underline">
-            <a
+            <a className=""
               href="https://github.com/rohit-sama/next-chat"
               rel="noreferrer"
               target="_blank"

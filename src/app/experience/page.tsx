@@ -7,7 +7,7 @@ const page: React.FC<pageProps> = () => {
     <div className="flex-col flex mb-5 lg:m-10 mx-10 justify-center items-center">
       <h1 className="lg:m-10 mt-1 mb-4 text-xl">What have i done?</h1>
 
-      <div className="text-left text-gray-400 gap-5 text-md flex-col flex ">
+      <div className="text-left lg:border-l-1 lg:pl-3 text-gray-400 gap-5 text-md flex-col flex ">
         -- learning right now --
         <div className="">
           <h4 className="decoration-gray-400 text-gray-300 underline-offset-4 underline">
