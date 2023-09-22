@@ -174,7 +174,7 @@ const page: React.FC<pageProps> = () => {
             <button className="border-1 border-slate-700 rounded-sm px-1 mr-2 mt-1">
               React.js
             </button>
-            <button className="border-1 border-slate-700 rounded-sm px-1  mr-2 mt-1">Api's</button>
+            <button className="border-1 border-slate-700 rounded-sm px-1  mr-2 mt-1">Api stuff</button>
           </div>
         </div>
       </div>
