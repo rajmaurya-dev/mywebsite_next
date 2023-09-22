@@ -20,11 +20,12 @@ const page: React.FC<pageProps> = () => {
           </h2>
           <p className="">
             The Ultimate Real-Time Chat Application for Dark Theme Enthusiasts,
-            <br />
             Powered by NextAuth!
           </p>
           <div>
-            <button className="border-1 border-slate-700 rounded-sm px-1 mr-2 mt-1">Next.js</button>
+            <button className="border-1 border-slate-700 rounded-sm px-1 mr-2 mt-1">
+              Next.js
+            </button>
             <button className="border-1 border-slate-700 rounded-sm px-1  mr-2 mt-1">
               Pusher.js
             </button>
@@ -51,11 +52,12 @@ const page: React.FC<pageProps> = () => {
           </h2>
           <p className="">
             designed for folks who are interested in sharing motivational quotes
-            <br />
             to inspire and support each other.
           </p>
           <div>
-            <button className="border-1 border-slate-700 rounded-sm px-1 mr-2 mt-1">Next.js</button>
+            <button className="border-1 border-slate-700 rounded-sm px-1 mr-2 mt-1">
+              Next.js
+            </button>
             <button className="border-1 border-slate-700 rounded-sm px-1   mr-2 mt-1">
               NextAuth
             </button>
@@ -80,7 +82,6 @@ const page: React.FC<pageProps> = () => {
           </h2>
           <p className="">
             designed for all the anime and manga lovers out there who are
-            <br />
             seeking unique travel destinations that resonate with their passions
           </p>
           <div>
@@ -110,12 +111,12 @@ const page: React.FC<pageProps> = () => {
           </h2>
           <p className="">
             This is a ONLY TODO api you will ever need, made with nodejs on
-            backend and
-            <br />
-            MongoDB for the database and hosted on vercel.
+            backend and MongoDB for the database and hosted on vercel.
           </p>
           <div>
-            <button className="border-1 border-slate-700 rounded-sm px-1 mr-2 mt-1">Node.js</button>
+            <button className="border-1 border-slate-700 rounded-sm px-1 mr-2 mt-1">
+              Node.js
+            </button>
             <button className="border-1 border-slate-700 rounded-sm px-1  mr-2 mt-1">
               Express.js
             </button>
@@ -143,7 +144,6 @@ const page: React.FC<pageProps> = () => {
           </h2>
           <p className="">
             This is the Portfolio i made when i was learning react.js way back
-            <br />
             in march 2023.
           </p>
           <div>
@@ -167,14 +167,15 @@ const page: React.FC<pageProps> = () => {
           </h2>
           <p className="">
             This is a basic movie app where you can search your favourite movies
-            <br />
             which works by using imdb api and made with react.js
           </p>
           <div>
             <button className="border-1 border-slate-700 rounded-sm px-1 mr-2 mt-1">
               React.js
             </button>
-            <button className="border-1 border-slate-700 rounded-sm px-1  mr-2 mt-1">Api stuff</button>
+            <button className="border-1 border-slate-700 rounded-sm px-1  mr-2 mt-1">
+              Api stuff
+            </button>
           </div>
         </div>
       </div>

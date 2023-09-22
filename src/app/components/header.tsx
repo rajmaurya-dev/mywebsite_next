@@ -14,7 +14,7 @@ const Header = () => {
   // Use useEffect to check if the screen size is mobile and update the state
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768); // You can adjust this threshold as needed
+      setIsMobile(window.innerWidth <= 1033); // You can adjust this threshold as needed
     };
 
     // Initial check and add event listener
@@ -29,7 +29,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="flex-col flex md:flex-row m-8 sm:flex-col justify-center -ml-[1px] font-bold p-2 items-center mt-10">
+      <div className="flex-col flex md:flex-col m-8 sm:flex-col justify-center -ml-[1px] font-bold p-2 items-center mt-10">
         <div className="text-[#8c8d83] flex gap-4 font-mono text-[25px]">
           <FontAwesomeIcon icon={faCaretRight} className="mt-2" height={25} />
           @Rohitsingh<span className="blinking-cursor -m-2 -ml-5">|</span>
